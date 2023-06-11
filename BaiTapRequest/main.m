@@ -6,11 +6,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "Request.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
-        NSLog(@"Hello, World!");
+        Request *r = [[Request alloc] init];
+        [r GetDaDa];
+        [r print];
     }
     return 0;
 }
